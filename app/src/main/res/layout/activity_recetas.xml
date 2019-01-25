@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fondo"
+        android:gravity="center|top"
+        tools:context=".recetas">
+    <TextView android:layout_width="wrap_content"
+              android:text="Recetas Saludables"
+              android:textSize="30dp"
+              android:layout_marginTop="60dp"
+              android:textStyle="bold"
+              android:textColor="@color/blanco"
+              android:layout_height="wrap_content"/>
+    <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardCornerRadius="9dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="horizontal"
+                      android:gravity="center"
+                      android:paddingLeft="15dp"
+                      android:layout_height="90dp">
+            <ImageView android:layout_width="80dp"
+                       android:src="@drawable/toast"
+                       android:layout_height="wrap_content"/>
+            <LinearLayout android:layout_width="wrap_content"
+                          android:orientation="vertical"
+                          android:padding="5dp"
+                          android:gravity="center|top"
+                          android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content"
+                          android:text="Desayunos saludables"
+                          android:textSize="15dp"
+                          android:textStyle="bold"
+                          android:layout_height="wrap_content"/>
+                <TextView android:layout_width="180dp"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginRight="10dp"
+                          android:text="Lorem ipsum dolor sit amet consectetur adipiscing elit"
+                          android:textSize="10dp"
+                          android:layout_height="wrap_content"/>
+                <Button android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Ver mas"
+                        android:textColor="@color/blanco"
+                        android:background="@drawable/bton_vermas"
+                        android:id="@+id/btn_desayunosR"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardCornerRadius="9dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="horizontal"
+                      android:gravity="center"
+                      android:paddingLeft="15dp"
+                      android:layout_height="90dp">
+            <ImageView android:layout_width="80dp"
+                       android:src="@drawable/turkey"
+                       android:layout_height="wrap_content"/>
+            <LinearLayout android:layout_width="wrap_content"
+                          android:orientation="vertical"
+                          android:padding="5dp"
+                          android:gravity="center|top"
+                          android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content"
+                          android:text="Comidas saludables"
+                          android:textSize="15dp"
+                          android:textStyle="bold"
+                          android:layout_height="wrap_content"/>
+                <TextView android:layout_width="180dp"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginRight="10dp"
+                          android:text="Lorem ipsum dolor sit amet consectetur adipiscing elit"
+                          android:textSize="10dp"
+                          android:layout_height="wrap_content"/>
+                <Button android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Ver mas"
+                        android:textColor="@color/blanco"
+                        android:background="@drawable/bton_vermas"
+                        android:id="@+id/btn_comidasR"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            card_view:cardCornerRadius="9dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:orientation="horizontal"
+                      android:gravity="center"
+                      android:paddingLeft="15dp"
+                      android:layout_height="90dp">
+            <ImageView android:layout_width="80dp"
+                       android:src="@drawable/coffee_cup"
+                       android:layout_height="wrap_content"/>
+            <LinearLayout android:layout_width="wrap_content"
+                          android:orientation="vertical"
+                          android:padding="5dp"
+                          android:gravity="center|top"
+                          android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content"
+                          android:text="Cenas saludables"
+                          android:textSize="15dp"
+                          android:textStyle="bold"
+                          android:layout_height="wrap_content"/>
+                <TextView android:layout_width="180dp"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginRight="10dp"
+                          android:text="Lorem ipsum dolor sit amet consectetur adipiscing elit"
+                          android:textSize="10dp"
+                          android:layout_height="wrap_content"/>
+                <Button android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Ver mas"
+                        android:textColor="@color/blanco"
+                        android:background="@drawable/bton_vermas"
+                        android:id="@+id/btn_cenasR"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
